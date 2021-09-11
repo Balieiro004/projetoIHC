@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: black;
+}
+
+
+    
+.box1{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    list-style:none;
+    
+    float:right;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #b91f1f; 
+}
+
+.menu li a{
+    color: white; 
+    text-decoration:none; 
+    padding: 5px 30px; 
+    display:block;
+}
+
+.menu li a:hover{
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color: black;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+.fotoDoceria img{
+    height: 480px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    background: #bdc3c7; 
+    background-image: linear-gradient(to top, rgb(89, 89, 89), white);
+    background-attachment: fixed;
+    display: flex;
+/*    align-items: center;*/
+    justify-content: space-between;
+}
+
+.bemVindo{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.container .foto{
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.texto{
+    height: 200px;
+    width: 350px;
+    text-align: justify;
+    color: rgb(108, 33, 40);
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.right{
+    float: right;
+    width: 590px;
+    margin-top: 75px;
+    margin-right: 150px;
+
+   /* margin-right: 570px;
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    color: rgb(108, 33, 40);
+    border: 1px solid black;*/
+}
+
+.right .cardapio{
+    overflow: hidden; /**/
+}
+
+.right .cardapio .title{
+    overflow: hidden;
+}
+
+.right .cardapio .title h3 {
+    float: left;
+    font-size: 22px;
+    font-family: 'Judson';
+    font-weight: 700;
+    color: #6c2128;
+}
+
+.right .cardapio .box:nth-child(2n) {
+    float: right;
+}
+
+.right .cardapio .box .imagem {
+    padding-bottom: 5px;
+}
+
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+a img {
+    display: block;
+}
+
+.right .cardapio .box .titulo {
+    height: 28px;
+    line-height: 27px;
+/*    padding: 0 11px 0 45px;*/
+    margin-top: -5px;
+   /* margin-right: 30px;*/
+   float: right;
+}
+
+.right .cardapio .box .titulo a:link, .home .right .cardapio .box .titulo a:active, #conteudo.home .right .cardapio .box .titulo a:visited {
+    color: #ffc2ab;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.right .cardapio .box .titulo .link1{
+    margin-right: 39px;
+}
+
+.right .cardapio .box .titulo{
+    color: red;
+}
+
+.right .festa {
+    height: 135px;
+    margin-top: 45px;
+    padding: 17px 0px 17px 20px;
+    margin-right: 0;
+}
+
+.right .festa .imagens {
+    float: left;
+    width: 266px;
+
+}
+
+.right .festa .imagens .img {
+    float: left;
+    width: 131px;
+    margin-right: 4px;
+    position: relative;
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.right .festa .imagens .img .bd {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    border: solid 5px rgba(255,255,255,.2);
+}
+
+.right .festa .imagens .img img {
+    display: block;
+}
+
+.right .festa .imagens .img:last-child {
+    margin-right: 0px;
+}
+
+.right .casamento .texto1 {
+    float: right;
+    width: 265px;
+    margin-top: 10px;
+}
+
+.right .festa .texto1 h3 {
+    color: #CCCCCC;
+    font-family: 'Judson';
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.right .festa .texto1 h3 span {
+    color: #c74e2e;
+}
+
+.home .right .festa .texto1 p {
+    color: #CCCCCC;
+    font-size: 12px;
+    line-height: 19px;
+    font-style: italic;
+    margin: 5px 0 10px 0;
+}
+
+footer{
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    color: #9CA7AD;
+    font-size: 13px;
+    font-family: 'Judson';
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #3B1306;
+}
+
+footer .endereco{
+    margin-left: 320px;
+}
+
+footer .endereco, .telefone{
+    padding: 10px;
+}
+
+footer .redeSocial{
+    display: flex;
+}
+footer .imagen a{
+    display: flex;
+}
+
+footer .imagen p{
+    margin-top: 30px;
+}
+
+footer .endereco h3, .telefone h3{
+    color: #b35644;
+    font-family: 'Judson';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
