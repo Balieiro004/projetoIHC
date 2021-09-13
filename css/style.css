@@ -9,16 +9,13 @@ body{
     background-color: black;
 }
 
-
-    
 .box1{
     height: 70px;
     width: 100%;
     background-color: black;
 }
 .menu{
-    list-style:none;
-    
+    list-style:none;    
     float:right;
     margin-top: 20px;
     margin-right: 250px;
@@ -71,7 +68,6 @@ body{
     background-image: linear-gradient(to top, rgb(89, 89, 89), white);
     background-attachment: fixed;
     display: flex;
-/*    align-items: center;*/
     justify-content: space-between;
 }
 
@@ -100,14 +96,6 @@ body{
     width: 590px;
     margin-top: 75px;
     margin-right: 150px;
-
-   /* margin-right: 570px;
-    margin-top: 60px;
-    height: 100%;
-    width: 100%;
-    text-align: justify;
-    color: rgb(108, 33, 40);
-    border: 1px solid black;*/
 }
 
 .right .cardapio{

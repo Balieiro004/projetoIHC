@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.box1{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    list-style:none;    
+    float:right;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #b91f1f; 
+}
+
+.menu li a{
+    color: white; 
+    text-decoration:none; 
+    padding: 5px 30px; 
+    display:block;
+}
+
+.menu li a:hover{
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color: black;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+
+.container{
+    width: 100%;
+    background: #bdc3c7; 
+    background-image: linear-gradient(to top, rgb(89, 89, 89), white);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > .titulo{
+    margin-top: 40px;
+    margin: 0 auto;
+
+}
+
+.container .titulo h3{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Judson';
+    font-weight: 700;
+    margin-left: 210px;
+}
+
+.container .titulo p{
+    font-size: 20px;
+    font-family: 'Judson';
+    color: #c74e2e;
+    font-style: italic;
+    margin-left: 170px;
+}
+
+iframe{
+    margin-bottom: 10px;
+}
+footer{
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    color: #9CA7AD;
+    font-size: 13px;
+    font-family: 'Judson';
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #3B1306;
+}
+
+footer .endereco{
+    margin-left: 320px;
+}
+
+footer .endereco, .telefone{
+    padding: 10px;
+}
+
+footer .redeSocial{
+    display: flex;
+}
+footer .imagen a{
+    display: flex;
+}
+
+footer .imagen p{
+    margin-top: 30px;
+}
+
+footer .endereco h3, .telefone h3{
+    color: #b35644;
+    font-family: 'Judson';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
